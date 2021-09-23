@@ -28,7 +28,12 @@ kotlin {
     }
     
     sourceSets {
-        val commonMain by getting
+        val commonMain by getting {
+            dependencies {
+                implementation(project(mapOf("path" to ":inbox:model")))
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2-native-mt")
+            }
+        }
         val commonTest by getting {
             dependencies {
                 implementation(kotlin("test-common"))
@@ -54,4 +59,7 @@ android {
         minSdkVersion(21)
         targetSdkVersion(31)
     }
+}
+dependencies {
+    implementation(project(mapOf("path" to ":inbox:model")))
 }
