@@ -1,0 +1,6 @@
+framework module inbox:model {
+  umbrella header "placeholder.h"
+
+  export *
+  module * { export * }
+}
