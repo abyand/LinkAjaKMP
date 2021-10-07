@@ -1,16 +1,21 @@
 PODS:
+  - pepes (1.0)
   - shared (1.0)
 
 DEPENDENCIES:
+  - pepes (from `../pepes`)
   - shared (from `../shared`)
 
 EXTERNAL SOURCES:
+  pepes:
+    :path: "../pepes"
   shared:
     :path: "../shared"
 
 SPEC CHECKSUMS:
+  pepes: 98075231405132b29bc0d4b1537b5015274b53f8
   shared: 7e5bb3963fe6bd4de6f2c4da301b5f6251f84201
 
-PODFILE CHECKSUM: f282da88f39e69507b0a255187c8a6b644477756
+PODFILE CHECKSUM: 3ed19d50518b5570d28b24065985cc36a8fd187c
 
 COCOAPODS: 1.11.2

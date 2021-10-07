@@ -9,11 +9,4 @@ interface InboxLocalDataSource {
 
     suspend fun getCategoryInbox(): RequestCategoryInboxStatus
 
-    suspend fun cacheCategoryInboxCollection(data: List<CategoryInbox>)
-
-    suspend fun cacheListInboxCollection(page: Int, data: List<Inbox>, idCategory: Int)
-
-    suspend fun getListInbox(idCategory: Int, page: Int): RequestInboxCollectionStatus
-
-    suspend fun clearInboxCollection()
 }
