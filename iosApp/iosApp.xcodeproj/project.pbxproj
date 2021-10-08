@@ -10,6 +10,7 @@
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
 		7555FF83242A565900829871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7555FF82242A565900829871 /* ContentView.swift */; };
 		BED8FB2C270EC38F00590D71 /* InboxRemoteDataSourceImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED8FB2B270EC38F00590D71 /* InboxRemoteDataSourceImp.swift */; };
+		BEFF6475270FEF2600A164FD /* InboxRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEFF6474270FEF2600A164FD /* InboxRepositoryImpl.swift */; };
 		C8BD3E7268E1C5C9F7EFFC33 /* Pods_iosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA35B2760EF8719A3D40BAD7 /* Pods_iosApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -20,6 +21,7 @@
 		7555FF82242A565900829871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7555FF8C242A565B00829871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BED8FB2B270EC38F00590D71 /* InboxRemoteDataSourceImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxRemoteDataSourceImp.swift; sourceTree = "<group>"; };
+		BEFF6474270FEF2600A164FD /* InboxRepositoryImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxRepositoryImpl.swift; sourceTree = "<group>"; };
 		CB50FDA0B2DA3CD073D0AEAE /* Pods-iosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosApp.release.xcconfig"; path = "Target Support Files/Pods-iosApp/Pods-iosApp.release.xcconfig"; sourceTree = "<group>"; };
 		EA35B2760EF8719A3D40BAD7 /* Pods_iosApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -78,6 +80,7 @@
 				7555FF8C242A565B00829871 /* Info.plist */,
 				2152FB032600AC8F00CF470E /* iOSApp.swift */,
 				BED8FB2B270EC38F00590D71 /* InboxRemoteDataSourceImp.swift */,
+				BEFF6474270FEF2600A164FD /* InboxRepositoryImpl.swift */,
 			);
 			path = iosApp;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			files = (
 				BED8FB2C270EC38F00590D71 /* InboxRemoteDataSourceImp.swift in Sources */,
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
+				BEFF6475270FEF2600A164FD /* InboxRepositoryImpl.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -9,30 +9,12 @@
 import Foundation
 import pepes
 
-final class InboxRemoteDataSOurceImp: InboxRepository {
-    func clearInboxCollection(completionHandler: @escaping (KotlinUnit?, Error?) -> Void) {
-        <#code#>
+final class InboxRemoteDataSOurceImp: InboxRemoteDataSource {
+    func fetchCategoryInbox(msisdn: String, language: Language, completionHandler: @escaping (RequestCategoryInboxStatus?, Error?) -> Void) {
+        let model = RequestCategoryInboxStatus.SuccessLocal(data: [])
+        completionHandler(model, nil)
     }
     
-    func parseInbox(param: String) -> Inbox {
-        <#code#>
-    }
-    
-    func requestCategoryInbox(msisdn: String, language: Language, completionHandler: @escaping (Kotlinx_coroutines_coreFlow?, Error?) -> Void) {
-        <#code#>
-    }
-    
-    func requestListInbox(msisdn: String, idCategory: Int32, page: Int32, limit: Int32, completionHandler: @escaping (Kotlinx_coroutines_coreFlow?, Error?) -> Void) {
-        <#code#>
-    }
-    
-    func requestMarkReadAllInbox(msisdn: String, param: Int32, completionHandler: @escaping (KotlinUnit?, Error?) -> Void) {
-        <#code#>
-    }
-    
-    func requestMarkReadInbox(inbox: Inbox, completionHandler: @escaping (KotlinUnit?, Error?) -> Void) {
-        <#code#>
-    }
     
     
 }
